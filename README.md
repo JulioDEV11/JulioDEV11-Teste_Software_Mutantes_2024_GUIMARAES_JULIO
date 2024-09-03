@@ -11,7 +11,7 @@ Os Testes de Mutação, testes utilizados para avaliar a qualidade e a robustez 
 
 Utilizei um projeto básico no github que execute funções básicas de uma calculadora, nesse caso, soma, subtração, multiplicação, divisão, potência de 2 e raiz quadrada. Utilizei os comandos pytest - teste de unidade, pytest-cov - devolve cobertura dos testes e o mutmut aplica os testes de mutação.
 
-[Documento tutorial em PDF](https://github.com/JulioDEV11/JulioDEV11-Teste_Software_Mutantes_2024_GUIMARAES_JULIO/blob/main/JULIO_GEOVANI_ATIVIDADE_2.pdf)
+[Tutorial PDF](https://github.com/JulioDEV11/JulioDEV11-Teste_Software_Mutantes_2024_GUIMARAES_JULIO/blob/main/JULIO_GEOVANI_ATIVIDADE_2.pdf)
 
 ## Tecnologias utilizadas
 Sistema Operacional: Windowns 
@@ -48,13 +48,13 @@ Execução do teste de mutação: “mutmut run --paths-to-mutate=meu-diretório
 Conclusão: De forma geral, os casos de teste se comportaram bem em relação ao teste de mutação, eliminaram praticamente todos os 38 mutants inseridos, sobrevivendo apenas 3 mutants.  
 
 Um dos problemas encontrados foi na possível passagem do valor None ao self.memory que estava pegando por padrão o valor 0.
-[Documento tutorial em PDF](https://github.com/JulioDEV11/JulioDEV11-Teste_Software_Mutantes_2024_GUIMARAES_JULIO/blob/main/Mutants%20Html.html)
+[Html](https://github.com/JulioDEV11/JulioDEV11-Teste_Software_Mutantes_2024_GUIMARAES_JULIO/blob/main/Mutants%20Html.html)
 
 
 Com uma pequena alteração para pegar exatamente o memory=0 que a função recebia por padrão e também uma verificação para nunca realizar raiz quadrada de número negativo
 mais 1 mutant foi eliminado. 
 
-[Documento tutorial em PDF](https://github.com/JulioDEV11/JulioDEV11-Teste_Software_Mutantes_2024_GUIMARAES_JULIO/blob/main/Teste%20Mutation.pdf)
+[HTML](https://github.com/JulioDEV11/JulioDEV11-Teste_Software_Mutantes_2024_GUIMARAES_JULIO/blob/main/Teste%20Mutation.pdf)
 
 Dessa forma, sobraram apenas dois mutants. Novos casos de teste resultaram em uma melhor detecção de mutantes, melhorando a confiabilidade do código.
 
