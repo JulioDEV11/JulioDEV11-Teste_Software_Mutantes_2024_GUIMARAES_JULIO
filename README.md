@@ -1,6 +1,7 @@
 # Aluno: Júlio Geovani Oliveira Guimarães 
 
 ## Atividade 2 - Guia de Testes de Mutação para Projetos Python
+GitHub: https://github.com/valdas-v1/A-Simple-Python-Calculator/tree/main
 
 *Universidade Federal de Sergipe*
 
