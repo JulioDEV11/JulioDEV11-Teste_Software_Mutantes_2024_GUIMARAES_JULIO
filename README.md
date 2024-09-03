@@ -10,7 +10,42 @@ Os Testes de Mutação, testes utilizados para avaliar a qualidade e a robustez 
 
 Utilizei um projeto básico no github que execute funções básicas de uma calculadora, nesse caso, soma, subtração, multiplicação, divisão, potência de 2 e raiz quadrada. Utilizei os comandos pytest - teste de unidade, pytest-cov - devolve cobertura dos testes e o mutmut aplica os testes de mutação.
 
-[Documento tutorial em PDF]()
+[Documento tutorial em PDF](https://github.com/JulioDEV11/JulioDEV11-Teste_Software_Mutantes_2024_GUIMARAES_JULIO/blob/main/Atividade%202.pdf)
 
+## Tecnologias utilizadas
+Sistema Operacional: Windowns 
+IDE: Visual Studio Code 
+Ferramentas: Venv(Ambiente Virtual), pytest, pytest-cov e mutmut. 
+ 
+Configurações feitas no ambiente: 
 
+Em primeiro, um clone no repositório: 
+
+Código:  “git clone https://github.com/valdas-v1/A-Simple-Python-Calculator.git ” 
+ 
+Em segundo, a instalação do venv:  
+
+Código: “python -m venv venv” 
+                   “python3 -m venv meu-diretório\venv”
+
+Em terceiro, a Ativação do venv (Ambiente Virtual): 
+
+ Código: “venv/Scripts/activate” 
+
+Em quarto, a instalação dos pacotes já disponíveis no repositório: 
+
+Código: “pip3 install -r requirements.txt” 
+Obs: Adição dos pacotes pytest-cov e mutmut ao 	requirements.txt.
+
+## Execução dos testes: 
+
+Execução do arquivo de teste utilizando o pytest:  “pytest -vv meu-diretório\tests\test_calculator.py”
+Execução do teste de cobertura: “pytest -vv meu-diretório\tests\test_calculator.py --cov=calculator”
+Gerando html com as informações do teste de cobertura: pytest -vv  meu-diretório\tests\test_calculator.py --cov=calculator --cov-branch --cov-report html
+Execução do teste de mutação: “mutmut run --paths-to-mutate=meu-diretório\calculator\calculator.py --tests-dir=meu-diretório\tests”
+
+Conclusão: De forma geral, os casos de teste se comportaram bem em relação ao teste de mutação, eliminaram praticamente todos os 38 mutants inseridos, sobreviveram apenas 3 mutants.  
+
+[Documento tutorial em PDF](https://github.com/JulioDEV11/JulioDEV11-Teste_Software_Mutantes_2024_GUIMARAES_JULIO/blob/main/Atividade%202.pdf)
+ 
 
