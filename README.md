@@ -47,13 +47,14 @@ Execução do teste de mutação: “mutmut run --paths-to-mutate=meu-diretório
 Conclusão: De forma geral, os casos de teste se comportaram bem em relação ao teste de mutação, eliminaram praticamente todos os 38 mutants inseridos, sobrevivendo apenas 3 mutants.  
 
 Um dos problemas encontrados foi na possível passagem do valor None ao self.memory que estava pegando por padrão o valor 0.
+[Documento tutorial em PDF](https://github.com/JulioDEV11/JulioDEV11-Teste_Software_Mutantes_2024_GUIMARAES_JULIO/blob/main/Mutants%20Html.html)
 ![image](https://github.com/user-attachments/assets/c8bbd8bf-5d5e-44a2-ac34-a1a464ae116e)
 ![image](https://github.com/user-attachments/assets/aa992457-ed28-4877-a243-43ce01a00f7e)
 ![image](https://github.com/user-attachments/assets/5e647e12-1d84-404b-90db-27044eb38c6e)
 
 
 Com uma pequena alteração para pegar exatamente o memory=0 que a função recebia por padrão, mais 1 mutant foi eliminado. 
-
+[Documento tutorial em PDF]()
 ![image](https://github.com/user-attachments/assets/2c77ae67-68d4-426e-b340-30656be53aea)
 ![image](https://github.com/user-attachments/assets/0d875c74-b982-49d5-9fac-47028f6a2adc)
 
