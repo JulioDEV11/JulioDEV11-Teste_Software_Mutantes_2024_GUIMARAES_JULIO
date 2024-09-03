@@ -44,8 +44,12 @@ Execução do teste de cobertura: “pytest -vv meu-diretório\tests\test_calcul
 Gerando html com as informações do teste de cobertura: pytest -vv  meu-diretório\tests\test_calculator.py --cov=calculator --cov-branch --cov-report html
 Execução do teste de mutação: “mutmut run --paths-to-mutate=meu-diretório\calculator\calculator.py --tests-dir=meu-diretório\tests”
 
-Conclusão: De forma geral, os casos de teste se comportaram bem em relação ao teste de mutação, eliminaram praticamente todos os 38 mutants inseridos, sobreviveram apenas 3 mutants.  
+Conclusão: De forma geral, os casos de teste se comportaram bem em relação ao teste de mutação, eliminaram praticamente todos os 38 mutants inseridos, sobrevivendo apenas 3 mutants.  
 
-[Documento tutorial em PDF](https://github.com/JulioDEV11/JulioDEV11-Teste_Software_Mutantes_2024_GUIMARAES_JULIO/blob/main/Atividade%202.pdf)
+Um dos problemas encontrados foi na possível passagem do valor None ao self.memory que estava pegando por padrão o valor 0. 
+
+Com uma pequena alteração para pegar exatamente o memory=0 que a função recebia por padrão, mais 1 mutant foi eliminado. 
+
+
  
 
