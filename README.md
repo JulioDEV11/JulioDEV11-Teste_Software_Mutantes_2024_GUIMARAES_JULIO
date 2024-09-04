@@ -60,7 +60,7 @@ mais 1 mutant foi eliminado.
 
 HTML gerado com o "mutmut html": [HTML](https://github.com/JulioDEV11/JulioDEV11-Teste_Software_Mutantes_2024_GUIMARAES_JULIO/blob/main/Teste%20Mutation.pdf)
 
-Dessa forma, sobraram apenas dois mutants. Novos casos de teste resultaram em uma melhor detecção de mutantes, melhorando a confiabilidade do código.
+Dessa forma, sobraram apenas dois mutants. Novos casos de teste resultaram em uma melhor detecção e eliminação de mutantes, melhorando a confiabilidade do código.
 
 
  
