@@ -11,6 +11,7 @@ Os Testes de Mutação, testes utilizados para avaliar a qualidade e a robustez 
 
 Utilizei um projeto básico no github que execute funções básicas de uma calculadora, nesse caso, soma, subtração, multiplicação, divisão, potência de 2 e raiz quadrada. Utilizei os comandos pytest - teste de unidade, pytest-cov - devolve cobertura dos testes e o mutmut aplica os testes de mutação.
 
+## Tutorial em PDF com todas as configurações da atividade
 [Tutorial PDF](https://github.com/JulioDEV11/Teste_Software_Mutantes_2024_Guimaraes_Julio/blob/main/Julio_Geovani_Atividade_2.pdf.pdf)
 
 ## Tecnologias utilizadas
