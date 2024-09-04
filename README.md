@@ -42,8 +42,11 @@ Obs: Adição dos pacotes pytest-cov e mutmut ao 	requirements.txt.
 ## Execução dos testes: 
 
 Execução do arquivo de teste utilizando o pytest:  “pytest -vv meu-diretório\tests\test_calculator.py”
+
 Execução do teste de cobertura: “pytest -vv meu-diretório\tests\test_calculator.py --cov=calculator”
+
 Gerando html com as informações do teste de cobertura: pytest -vv  meu-diretório\tests\test_calculator.py --cov=calculator --cov-branch --cov-report html
+
 Execução do teste de mutação: “mutmut run --paths-to-mutate=meu-diretório\calculator\calculator.py --tests-dir=meu-diretório\tests”
 
 Conclusão: De forma geral, os casos de teste se comportaram bem em relação ao teste de mutação, eliminaram praticamente todos os 38 mutants inseridos, sobrevivendo apenas 3 mutants.  
